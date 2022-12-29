@@ -58,7 +58,7 @@ $wgEmailAuthentication = true;
 $wgDBtype = "mysql";
 $wgDBserver = "mysql";
 $wgDBname = "homelabwiki";
-$wgDBuser = "webro";
+$wgDBuser = "root";
 $wgDBpassword = getenv( "WG_DB_PASSWORD" );
 
 # MySQL specific settings
