@@ -175,4 +175,5 @@ wfLoadExtension( 'WikiEditor' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
-
+$wgShowDebug = false;
+$wgDevelopmentWarnings = false;
