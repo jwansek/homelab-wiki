@@ -27,10 +27,12 @@ $wgMetaNamespace = "Eden's_Homelab_Wiki";
 ## For more information on customizing the URLs
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
-$wgScriptPath = "/wiki";
+$wgScriptPath = "/w";
+$wgArticlePath = "/wiki/w/$1";
+$wgUsePathInfo = true;
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "https://eda.gay/wiki";
+$wgServer = "https://eda.gay";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
